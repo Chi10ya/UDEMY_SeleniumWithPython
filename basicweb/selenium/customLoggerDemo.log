@@ -1,0 +1,5 @@
+05302020 04:11:05 PM - customLoggerDemo - WARNING: Warning message
+05302020 04:11:05 PM - customLoggerDemo - INFO: Info message
+05302020 04:11:05 PM - customLoggerDemo - ERROR: Error message
+05302020 04:11:05 PM - customLoggerDemo - DEBUG: Debug message
+05302020 04:11:05 PM - customLoggerDemo - CRITICAL: Critical message

@@ -1,0 +1,236 @@
+1: Section 1:
+    1: Introduction
+    2: Why Selnium
+    3: Selenium webdriver architecture - How it works
+    4: How to reach me anytime
+
+2: Setup and Configuration
+    5: Pyyhon Installation - Windows
+    6: Configuration of python - windows
+    7: Python installation and setup - Mac
+    8: First project creation and pycharm installation
+    9: Must watch lecture before moving forward
+    10: Package management using PIP
+    11: Installing iPython
+
+3: Understanding Variables and Data Type
+    12: Python terminal walkthrough
+    13: Understanding Object and References
+    14: Variables Rules
+    15: Numbers data type and math operations.
+    16: Numbers- Exponentiation and Modulo
+    17: Arithmetic order of precedence
+    18: Boolean Data type
+    19: Working with strings
+    20: String methods - Part 1
+    21: String methods - Part 2
+    22: More String slicing and Indexing.
+    23: String Formating
+
+4: Advanced data types
+    24: List and accessing the elements
+    25: List Methods
+    26: Working with Dictionary
+    27: Nested dictionary.
+    28: Dictionary Methods
+    29: Working with Tuple
+
+5: Comparision And Boolean Operators
+    30: Working with Comparators
+    31: Understanding Boolean Operators
+    32: Boolean Operators - Order of Precedence
+
+6: Program Control Flow
+    33: Conditional Logic - If Else conditions
+    34: While lopp Demo
+    35: Break Countinue and While / Else
+    36: For Lopp demo
+    37: Iterating multiple list - Using the Zip function
+    38: Using range function in For Loop
+
+7: Functions / Methods - Working with Reusable code
+    39: Understanding Methods
+    40: Working with Return values
+    41: Working with Positional / Optional Parameters
+    42: Understanding variable scope
+    43: More built-in functions.
+    44: Practice Exercise with solution *** Homework
+
+8: Classes - Object Oriented Programming
+    45: Understanding objects / classes
+    46: Create your own object
+    47: Create your own methods
+    48: Inheritance
+    49: Method Overriding
+    50: Practice exercise with solution
+
+9: Exception Handling ---> try, except, raise, else, finally
+    51: Exception Handling Demo
+    52: Finally and Else
+    53: Practice Exercise with solution *** Homework
+
+10: Modules
+    54: BuiltIn Modules
+    55: Create your own modules
+
+11: Working with files
+    56: How to write data to a file
+    57: How to read a file
+    58: File handling using "With" and "As" keywords
+
+12: How to inspect different elements on different browsers - Add-Ons
+    59: Introduction
+    60: How to inspect elements using FireFox DevTools
+    61: Firefox add-on - Try XPath
+    62: How to Inspect elements using chrome
+    63: Chrome Extension - Part 1
+    64: Chrome Extension - Part 2
+    65: Tricks to Generate - XPath
+    66: Best element inspect tool
+
+13: Selenium WebDriver - Setup and Installation
+    67: Selenium WebDriver Installation
+    68: How to install selenium plugin to pycharm
+    69: Selenium 3x update
+
+14: Selenium WebDriver -> Running Tests on Various browsers
+    70: Running tests on FireFox
+    71: Running tests on Google chrome
+    72: Requirement to run tests on IE
+    73: Running tests on Internet Explorer
+    74: Requirements to run tests on Safari
+    75: Running tests on safari
+    76: How to set drivers in system path - mac
+    77: How to set drivers in system path - windows
+    78: Interview questions.
+
+15: Selenium WebDriver -> Finding Elements
+    79: Understanding Elements and DOM
+    80: Find element by Id and Name
+    81: Understanding dynamic ids and selenium exception.
+    82: Find element by Xpath and CSS selectors
+    83: Find element by LinkText
+    84: Find Element by Class Name and Tag Name
+    85: Understand "By" class
+    86: How to find list of items
+    87: Interview Questions
+
+16: CSS Selectors - Advanced Locators
+    88: Using Ids with CSS selectors to find elements
+    89: How to use multiple CSS classes to find elements
+    90: Using wildcards with CSS selectors
+        #   Wild card characters are "^", "$", "*"
+            "^" : Represents the starting text
+            "$" : Represents the ending text
+            "*" : Represents the text contained
+                Syntax: tag[attribue<wild card character>='value']
+
+    HTML Example < input id = "displayed-text" name = "show-hide" class ="inputs displayed-class" placeholder="Hide/Show Example" type="text" style css="1" >
+    Examples:
+    input[class='inputs'] --> Only 1 matching node
+    input[class^='inputs'] => Two matching nodes
+    input[class = 'displayed-class'] - No matching nodes
+    input[class$='class'] -> One matching node
+    input[class*='displayed-class'] -> one matching node
+
+    91: How to find child nodes using CSS selectors
+    92: CSS Cheat sheet
+
+17: Difference between Absolute and Relative path
+    93: Difference between Absolute and Relative Xpath
+    94: How to build an effective Xpath
+    95: Using text to build an effective Xpath
+    96: Build Xpath using contains keyword
+    97: Build Xpath using starts-with keyword
+    98: How to find parent and sibling nodes
+    99: Practice exercise with solution + *** Intervide Question ***
+    100: Xpath cheat sheet
+
+18: Selenium WebDriver -> Working with Web Elements
+    101: Browser Interactions Introduction
+    102: Browser Interactions *** Practical Implementation ***
+    103: How to click and type on a web element
+    104: How to find the state of a web element (Disabled and Enabled Elements)
+    105: Radio buttons and checkboxes.
+    106: Working with elements list
+    107: Understanding dropdown elements
+    108: Working with a dropdown element *** Practical Example ***
+    109: How to work with Hidden elements
+    110: Working with hidden elements - *** Practical Example ***
+    111: *** Interview Questions ***
+
+19: Selenium WebDriver -> Useful Methods and Properties
+    112: How to get the text on Element
+    113: How to get value of element attribute
+    114: Generic method to find elements        ----> Revisit this class one more time
+    115: How to check if element is present     ----> Revisit this class one more time
+    116: How to build dynamic XPath
+
+20: Selenium WebDriver -> Wait Types
+    118: Implicity Wait Vs Explicit Wait
+    119: Implicity Wait *** Practical Example ***
+    120: Explicity Wait ** Practical Example ***
+    121: Generic method to work with explicit wait
+    122: *** Interview Questions ***
+
+21: Selenium Webdriver -> Advanced
+    123: Calendar selection Introduction
+    124: Calendar selection *** Practical Example ***
+    125: Calendar selection *** Real Time Example ***
+    126: AutoComplete Introduction
+    127: AutoComplete *** Practical Example ***
+    128: How to take screenshots
+    129: Generic method to take screenshots
+    130: Executing JavaScript commands
+    131: How to find size of the window
+    132: How to scroll enrollment into view
+    133: Interview Questions.
+
+22: Selenium WebDriver -> Switch Window and iFrames
+    134: How to switch window focus
+    135: Switch to window *** Practical Example ***
+    136: How to work with iFrames
+    137: Switch to iFrame *** Practical Example ***
+    138: Handling JavaScript popup
+
+23: Selenium WebDriver -> Working with acctions class
+    139: Mouse Hover actions
+    140: How to drag and drop element on a webpage
+    141: Working with sliders actions
+
+24: Logging Infrastructure
+    142: Introduction to logging infrastructure  --> Logging Levels : DEBUG, INFO, WARNING, ERROR, CRITICAL
+    143: Changing the format of logs
+    144: Logger-Console example
+    145: Logger-Configuration File example
+    146: How to write a generic custom logger utility -- ** This is the one to be used for logging.
+
+25: Unittest Infrastructure
+    147: Unitest Introduction
+    148: Writing first test case
+    149: How to implement class level setup and teardown methods
+    150: How to assert a test method
+        assertEqual(a, b), assertNotEqual(a,b)
+        assertTrue, assertFalse
+    151: How to export PythonPath *** MUST WATCH ***
+    152: How to run code from terminal
+    153: How to create a test suite. (And running the test suite from console)
+
+26: Pytest -> Advanced testing framework
+    154: Pytest installation and first script
+    155: Pytest Naming conventions
+    156: How to work with pyTest Fixtures
+    157: Pytest Fixture update
+    158: Multiple ways to run test cases
+    159: Important note for next lecture
+    160: Conftest -> Common fixtures to multiple modules
+    161: How to maintain run order of tests
+    162: Running tests based on command line
+    163: Structure tests in a test class
+    164: How to return a value from fixtures
+    165: Install pyTest HTML plugin
+    166: How to generate HTML test report.
+
+27: Automation Framework - Part 1
+    167: Automation framework Introduction
+    168: Understanding framework structure

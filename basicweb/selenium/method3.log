@@ -1,0 +1,4 @@
+05302020 04:11:05 PM - method3 - WARNING: Warning message
+05302020 04:11:05 PM - method3 - INFO: Info message
+05302020 04:11:05 PM - method3 - ERROR: Error message
+05302020 04:11:05 PM - method3 - CRITICAL: Critical message
